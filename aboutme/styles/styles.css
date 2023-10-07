@@ -1,34 +1,45 @@
+
 body {
-    text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  width: 25%;
+  background: pink;
 }
- nav {
-    background-color: steelblue;
-    padding: 10px;
-  }
-  a {
-    color: white;
-    margin: 40px;
-  }
-  h1 {
-    color: steelblue;
-  }
-  img {
-    width: 800px;
-    border: 4px solid steelblue;
-  }
-  p {
-    padding: 10px;
-    <p class='main-para'>BYU-Idaho is a comfortable place to learn and grow as a disciple of Jesus Christ because students, faculty, and employees share a commitment to live the gospel.</p>
-  }
-  footer {
-    background-color: steelblue;
-    color: white;
-  }
-  .main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+h1, p1 {
+  color: white;
+  text-align: center;
 }
-#active {
-  background-color: white;
-  color: steelblue;
+h1:hover {
+  color: black;
+}
+p1 {
+  font-size: 10px;
+  text-align: left;
+}
+p2 {
+color: black;
+font-size: 15px;
+}
+p3 {
+  font-size: 25px;
+  color: white;
+  display:block;
+  text-align: center;
+}
+p4 {
+  font-size: 25px;
+  color: white
+  text-align: center;
+}
+p5 {
+  font-size: 15px;
+  color: black;
+  width: 40%;
+  text-align: center;
+}
+img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
 }

@@ -1,13 +1,6 @@
-div {
-    max-width: 1600px;
-}
 #content {
     margin: 0 auto;
-}
-nav a {
-    text-align: center;
-    color:#43434D;
-    text-decoration: none;
+    max-width: 1600px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -18,14 +11,25 @@ nav a {
 main {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body {
     background-color:white;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:#f3af5a;
+}
+nav a {
+    text-align: center;
+    color:#43434D;
+    text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color:#6EC2D0;
@@ -35,6 +39,10 @@ nav a:hover{
     background-color:#f3af5a;
     color:#43434D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 50px
 }
 .book:hover, .join:hover{
     background-color:#6EC2D0;
@@ -43,18 +51,29 @@ nav a:hover{
 #background {
     background-color:#F2F0E6;
 }
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+.rivers-card, .camping-card, .rapids-card, .mountains {
+    margin: 200px 0;
+}
 .msg {
     background-color:#EAE7D7;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color:#43434D;
 }
 .msg p {
     color:#43434D;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:#EAE7D7;
-    color:#43434D; 
+    color:#43434D;
+    margin-top: 200px;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -62,12 +81,21 @@ footer p a:hover {
 footer a {
     color:#43434D;
     text-decoration: none;
+    padding: 25px 50px;
 }
 footer a:hover {
     color:#43434D;
 }
-.home-title{
+footer .social img {
+    padding-top: 15px;
+}
+.home-title {
     color:#43434D;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color:#43434D;  
@@ -77,7 +105,11 @@ h4 {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
 }

@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.left, .right {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.left {
+  background-color: white;
+}
+
+.right {
+  background-color: #d3d3d3;
+}
+
+.cherries {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: rgb(146, 20, 20);
+  font-size: 8em;
+}

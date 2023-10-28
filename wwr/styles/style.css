@@ -104,6 +104,7 @@ rivers-card, .camping-card, .rapids-card, .mountains {
     grid-column: 6 / 11;
     grid-row: 6 / 7;
     box-shadow: 5px 5px 10px #6f7364;
+    font-size: 20px;
 }
 .msg h2 {
     color:#43434D;

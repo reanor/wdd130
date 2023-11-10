@@ -117,7 +117,7 @@ rivers-card, .camping-card, .rapids-card, .mountains {
 footer {
     background-color:#EAE7D7;
     color:#43434D;
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -186,6 +186,35 @@ h4 {
 }
 
 
+.rivers-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.rivers-image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.rivers-image-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rivers-message-column {
+    padding: 0 20px;
+    margin-right: 40px;
+    background-color: #EAE7D7;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1.3em;
+    color: #43434D;
+    text-align: left;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

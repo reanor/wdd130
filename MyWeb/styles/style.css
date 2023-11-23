@@ -157,6 +157,7 @@ h4 {
     align-self: center;
 }
 #myVideo {
+    grid-column: 2/5;
     right: 0;
     bottom: 0;
 }
